@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicron.workers.UvicronWorker app:PropertyPricePredApp
+web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:PropertyPricePredApp
